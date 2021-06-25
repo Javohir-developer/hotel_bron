@@ -28,7 +28,7 @@ class MyController extends \yii\web\Controller
                     ],
                     [
                         'controllers' => ['site', 'category', 'hotel', 'bron'],
-                        'actions' => ['index', 'create', 'update', 'delete'],
+                        'actions' => ['index', 'create', 'update', 'delete', 'view'],
                         'allow' => true,
                         'roles' => ['User'],
                     ],
